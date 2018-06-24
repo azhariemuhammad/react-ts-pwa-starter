@@ -1,1 +1,1 @@
-# reat-next-ts-starter
+# react-next-ts-starter
