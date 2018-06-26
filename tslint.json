@@ -1,0 +1,10 @@
+{
+	"extends": [
+		"tslint-react"
+	],
+	"rules": {
+		"no-constant-condition": true,
+		"semi": [2, "never"],
+		"no-console": [true,"warning"],
+	}
+}
