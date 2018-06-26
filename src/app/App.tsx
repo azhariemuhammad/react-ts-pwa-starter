@@ -2,5 +2,14 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Hello } from './components/Hello';
 
-ReactDOM.render(<Hello compiler="Typescript" framework="React"
- bundler="webpack" />, document.getElementById('root'))
+export const App: React.StatelessComponent<{}> = () => {
+  return (
+    <div>
+      <Hello 
+        compiler="typescript"
+        framework="react"
+        bundler="webpack"
+      />
+    </div>
+  )
+}

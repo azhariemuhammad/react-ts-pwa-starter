@@ -8,7 +8,7 @@
   "scripts": {
     "build": "./node_modules/.bin/webpack",
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "start": "npm run build && node server.js"
+    "start": "npm run build && node server.js webpack"
   },
   "dependencies": {
     "express": "4.16.3",
